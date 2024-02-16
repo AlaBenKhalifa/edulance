@@ -10,33 +10,33 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{ asset('assets/img/favicon.png') }}" rel="icon">
-    <link href="{{ asset('assets/img/logo.png') }}" rel="apple-touch-icon">
+    <link href="{{ asset('home/img/favicon.png') }}" rel="icon">
+    <link href="{{ asset('home/img/logo.png') }}" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
      {% block stylesheets %}   
-    <link href="{{ asset('assets/js/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/js/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/js/aos/aos.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/js/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/js/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('home/js/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('home/js/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+    <link href="{{ asset('home/js/aos/aos.css') }}" rel="stylesheet">
+    <link href="{{ asset('home/js/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('home/js/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">
+    <link href="{{ asset('home/css/main.css') }}" rel="stylesheet">
     {% endblock %}
     
 </head>
 
-<body>
+
 {% block body%}
 <header id="header" class="header d-flex align-items-center">
 
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
         <a href="#" class="logo d-flex align-items-center">
-            <img src="{{ asset('assets/img/logo.png') }}" alt="">
+            <img src="{{ asset('home/img/logo.png') }}" alt="">
         </a>
 
         <nav id="navbar" class="navbar">
@@ -61,7 +61,7 @@
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2">
-                <img src="{{ asset('assets/img/hero-img.svg') }}" class="img-fluid" alt=""
+                <img src="{{ asset('home/img/hero-img.svg') }}" class="img-fluid" alt=""
                     >
             </div>
         </div>
@@ -119,7 +119,7 @@
             <div class="row gy-4">
                 <div class="col-lg-6">
                     <h3></h3>
-                    <img src="{{ asset('assets/img/about.jpg') }}" class="img-fluid rounded-4 mb-4" alt="">
+                    <img src="{{ asset('home/img/about.jpg') }}" class="img-fluid rounded-4 mb-4" alt="">
                     <p>We are a passionate team dedicated to providing an exceptional experience in the
                         freelancing, online education, etc.With Two years of combined experience in the industry, we
                         understand the challenges our users face and are committed to providing innovative and
@@ -141,7 +141,7 @@
                         </p>
 
                         <div class="position-relative mt-4">
-                            <img src="{{ asset('assets/img/about-2.jpg') }}" class="img-fluid rounded-4" alt="">
+                            <img src="{{ asset('home/img/about-2.jpg') }}" class="img-fluid rounded-4" alt="">
                         </div>
                     </div>
                 </div>
@@ -156,7 +156,7 @@
         <div class="row gy-4 align-items-center">
 
           <div class="col-lg-6">
-            <img src="{{asset('assets/img/stats-img.svg')}}" alt="" class="img-fluid">
+            <img src="{{asset('home/img/stats-img.svg')}}" alt="" class="img-fluid">
           </div>
 
           <div class="col-lg-6">
@@ -198,7 +198,7 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <div class="d-flex align-items-center">
-                    <img src="{{asset('assets/img/testimonials/testimonials-1.jpg')}}" class="testimonial-img flex-shrink-0" alt="">
+                    <img src="{{asset('home/img/testimonials/testimonials-1.jpg')}}" class="testimonial-img flex-shrink-0" alt="">
                     <div>
                       <h3>Saul Goodman</h3>
                       <div class="stars">
@@ -223,7 +223,7 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <div class="d-flex align-items-center">
-                    <img src="{{asset('assets/img/testimonials/testimonials-2.jpg')}}" class="testimonial-img flex-shrink-0" alt="">
+                    <img src="{{asset('home/img/testimonials/testimonials-2.jpg')}}" class="testimonial-img flex-shrink-0" alt="">
                     <div>
                       <h3>Sara Wilsson</h3>
                       <h4>Designer</h4>
@@ -249,7 +249,7 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <div class="d-flex align-items-center">
-                    <img src="{{asset('assets/img/testimonials/testimonials-3.jpg')}}" class="testimonial-img flex-shrink-0" alt="">
+                    <img src="{{asset('home/img/testimonials/testimonials-3.jpg')}}" class="testimonial-img flex-shrink-0" alt="">
                     <div>
                       <h3>Jena Karlis</h3>
                       <h4>Store Owner</h4>
@@ -282,17 +282,13 @@
 
 <!-- Add more scripts and footer content if needed -->
 {% endblock %}
-</body>
-
+public\home\js\bootstrap\js\bootstrap.bundle.min.js
 {% block javascripts %}
-    <script src="{{ asset('assets/js/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('assets/js/aos/aos.js') }}"></script>
-    <script src="{{ asset('assets/js/glightbox/js/glightbox.min.js') }}"></script>
-    <script src="{{ asset('assets/js/purecounter/purecounter_vanilla.js') }}"></script>
-    <script src="{{ asset('assets/js/swiper/swiper-bundle.min.js') }}"></script>
-    <script src="{{ asset('assets/js/isotope-layout/isotope.pkgd.min.js') }}"></script>
-    <script src="{{ asset('assets/js/php-email-form/validate.js') }}"></script>
+    <script src="{{asset('home/js/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{asset('home/js/aos/aos.js')}}"></script>
+    <script src="{{asset('home/js/glightbox/js/glightbox.min.js')}}"></script>
+    <script src="{{asset('home/js/purecounter/purecounter_vanilla.js')}}"></script>
+    <script src="{{asset('home/js/swiper/swiper-bundle.min.js')}}"></script>
+    <script src="{{asset('home/js/isotope-layout/isotope.pkgd.min.js')}}"></script>
+    <script src="{{asset('home/js/php-email-form/validate.js')}}"></script>
     {% endblock %}
-
-
-</html>
